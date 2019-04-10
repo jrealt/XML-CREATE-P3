@@ -1,101 +1,335 @@
-<?xml version="1.0" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE contenido SYSTEM "dtd_transformacion.dtd">
-
 <contenido>
-	<tema titulo="Espacios web para aprender y practicar los lenguajes de marca">
-		<texto>
-		</texto>
-	</tema>
-	<tema titulo="Lenguajes de marcas">
-		<subtema titulo="¿Qué son los lenguajes de marcas?">
-			<texto>
-			</texto>
-		</subtema>
-		<subtema titulo="Ejemplos de lenguajes de marcas">
-			<texto>
-			</texto>
-		</subtema>
-	</tema>
-	<tema titulo="eXtensible Markup language (XML)">
-		<subtema titulo="Definición de XML">
-			<texto>
-			</texto>
-		</subtema>
-		<subtema titulo="Utilidades de XML">
-			<texto>
-			</texto>
-		</subtema>
-	</tema>
-	<tema titulo="Estructura de documentos XML">
-		<subtema titulo="¿Qué es DTD?">
-			<texto>
-			</texto>
-		</subtema>
-		<subtema titulo="Ejemplos de gramáticas DTD">
-			<texto>
-			</texto>
-		</subtema>
-		<subtema titulo="Principales elementos de una gramática DTD">
-			<texto>
-			</texto>
-		</subtema>
-	</tema>
-	<tema titulo="Validación documentos XML">
-		<subtema titulo="Herramientas de validación de documentos XML">
-			<texto>
-			</texto>
-		</subtema>
-	</tema>
-	<tema titulo="Transformación de estructuras XML">
-		<subtema titulo="¿Qué es el lenguaje de transformación XSLT?">
-			<texto>
-			</texto>
-		</subtema>
-		<subtema titulo="Ejemplos de transformaciones XSLT">
-			<texto>
-			</texto>
-		</subtema>
-		<subtema titulo="Principales instrucciones XSLT">
-			<texto>
-			</texto>
-		</subtema>
-		<subtema titulo="Herramientas de transformación con XSLT">
-			<texto>
-			</texto>
-		</subtema>
-	</tema>
-	<tema titulo="Ejemplos de lenguajes basados en XML">
-		<subtema titulo="xHTML">
-			<texto>
-			</texto>
-			<subsubtema titulo="¿Que es xHTML?">
-				<texto>
-				</texto>
-			</subsubtema>
-			<subsubtema titulo="Utilidades">
-				<texto>
-				</texto>
-			</subsubtema>
-			<subsubtema titulo="Declaración">
-				<texto>
-				</texto>
-			</subsubtema>
-		</subtema>
-		<subtema titulo="RSS / Atom">
-			<texto>
-			</texto>
-			<subsubtema titulo="¿Qué es RSS o Atom?">
-				<texto>
-				</texto>
-			</subsubtema>
-			<subsubtema titulo="Utilidades">
-				<texto>
-				</texto>
-			</subsubtema>
-		</subtema>
-		<subtema titulo="Otros lenguajes basados en XML">
-			<texto>
-			</texto>
-		</subtema>
-	</tema>
+    <tema titulo="Espacios web para aprender y practicar los lenguajes de marca">
+        <texto>
+            <web enlace="http://www.mclibre.org/consultar/xml/ejercicios/documentos-bien-formados.html">(7 Ejercicios sobre documentos XML mal formados y corrección).</web>
+            <web enlace="http://agllmiesjulianmarias.blogspot.com/">(Gran cantidad de ejercicios sobre XML y lenguajes de marcas, incluido en las búsquedas grupales).</web>
+            <web enlace="https://www.abrirllave.com/xml/ejercicios-resueltos.php">(Ejercicios desde nivel básico sobre XML, sacado de las búsquedas grupales).</web>
+            <web enlace="https://sites.google.com/site/todoxmldtd/ejercicios">(Ejercicios XML y lenguajes de marca desde nivel básico, sacado de las búsqueda grupales).</web>
+            <web enlace="https://www.w3schools.com/xml/xml_quiz.asp">(Examen de 25 preguntas sobre conocimiento general de XML).</web>
+        </texto>
+    </tema>
+    <tema titulo="Lenguajes de marcas">
+        <texto>
+            <imagen enlace="./imagenes/lenguajes_de_marcas.png">Diagrama sobre lenguajes de marcas</imagen>
+        </texto>
+        <subtema titulo="¿Qué son los lenguajes de marcas?">
+            <texto>
+                <parrafo>Un <negrita>Lenguaje de Marcas</negrita>(Markup Language) es un modo de codificar (redactar) un documento donde, junto con el texto, se incorporan etiquetas (marcas o anotaciones) con información adicional relativa a la estructura del texto o su formato de presentación. Los Lenguajes de Marcas permiten hacer explícita la estructura de un documento, su contenido semántico o cualquier otra información lingüística o extralingüística que se quiera hacer patente.</parrafo>
+                <parrafo>El lenguaje de marcas más extendido es el HTML (HyperText Markup Language, lenguaje de marcado de hipertexto), fundamento del World Wide Web.</parrafo>
+                <parrafo>Los lenguajes de marcado suelen confundirse con lenguajes de programación. Sin embargo, no son lo mismo, ya que el lenguaje de marcado no tiene funciones aritméticas o variables, como poseen los lenguajes de programación. Históricamente, el marcado se usaba y se usa en la industria editorial y de la comunicación, así como entre autores, editores impresores.</parrafo>
+                <frase>Las principales características de los lenguajes de marcas son:</frase>
+                <lista>
+                    <elemento>
+                        <frase><negrita>Uso del texto plano</negrita>, para que cualquier usuario pueda leer y editar.</frase>
+                    </elemento>
+                    <elemento>
+                        <frase><negrita>Es un lenguaje compacto</negrita>, ya que se mezcla con el resto del texto del documento.</frase>
+                    </elemento>
+                    <elemento>
+                        <frase><negrita>Independencia del dispositivo</negrita>, para mostrarnos el contenido.</frase>
+                    </elemento>
+                    <elemento>
+                        <frase><negrita>Facilidad de procesamiento</negrita>, uso de diferentes lenguajes según el tipo de documento.</frase>
+                    </elemento>
+                    <elemento>
+                        <frase><negrita>Posibilidad de combinación</negrita> con otros lenguajes.</frase>
+                    </elemento>
+                </lista>
+                <frase>Los Lenguajes de Marcas se pueden clasificar de la siguiente manera:</frase>
+                <lista>
+                    <elemento>
+                        <frase><negrita>Lenguajes de presentación</negrita>: Define el formato (apariencia) del texto. Éstos suelen ocultar las etiquetas y mostrar al usuario solamente el texto con su formato.</frase>
+                    </elemento>
+                    <elemento>
+                        <frase><negrita>Lenguajes de procedimientos</negrita>: Orientado también a la presentación pero, además, el programa que representa el documento debe interpretar las etiquetas para realizar acciones en función de ellas.</frase>
+                    </elemento>
+                    <elemento>
+                        <frase><negrita>Lenguajes descriptivos o semánticos</negrita>: Describen las diferentes partes en las que se estructura el documento, es decir, definen su contenido, pero sin especificar cómo deben representarse.</frase>
+                    </elemento>
+                </lista>
+            </texto>
+        </subtema>
+        <subtema titulo="Ejemplos de lenguajes de marcas">
+            <texto>
+                <tabla>
+                    <fila>
+                        <columna>
+                            <frase>
+                                <negrita>Tipo</negrita>
+                            </frase>
+                        </columna>
+                        <columna>
+                            <frase>
+                                <negrita>Descripción</negrita>
+                            </frase>
+                        </columna>
+                        <columna>
+                            <frase>
+                                <negrita>Ejemplo</negrita>
+                            </frase>
+                        </columna>
+                    </fila>
+                    <fila>
+                        <columna>
+                            <frase>
+                                <negrita>Marcado de presentación</negrita>
+                            </frase>
+                        </columna>
+                        <columna>
+                            <frase>Indica el formato del texto, es decir cómo ha de presentarse el documento. La etiquetas de marcado suelen estar ocultas al usuario.</frase>
+                        </columna>
+                        <columna>
+                            <frase>Microsoft Word.</frase>
+                        </columna>
+                    </fila>
+                    <fila>
+                        <columna>
+                            <frase>
+                                <negrita>Marcado de Procedimiento</negrita>
+                            </frase>
+                        </columna>
+                        <columna>
+                            <frase>También está enfocado hacia la presentación del texto, sin embargo, las marcas que formatean el texto son visibles para el usuario y permiten procesamiento (realizar un conjunto de acciones) según el tipo de etiqueta.</frase>
+                        </columna>
+                        <columna>
+                            <frase>LaTeX, HTML.</frase>
+                        </columna>
+                    </fila>
+                    <fila>
+                        <columna>
+                            <frase>
+                                <negrita>Marcado descriptivo o semántico</negrita>
+                            </frase>
+                        </columna>
+                        <columna>
+                            <frase>Utiliza las marcas o etiquetas para describir los fragmentos de texto.</frase>
+                        </columna>
+                        <columna>
+                            <frase>XML.</frase>
+                        </columna>
+                    </fila>
+                </tabla>
+                <frase>Dentro de los lenguajes de marcado descriptivos o semánticos hay que destacar un conjunto de lenguajes Especializados en un área concreta:</frase>
+                <tabla>
+                    <fila>
+                        <columna>
+                            <frase>
+                                <negrita>Área</negrita>
+                            </frase>
+                        </columna>
+                        <columna>
+                            <frase>
+                                <negrita>Lenguaje</negrita>
+                            </frase>
+                        </columna>
+                        <columna>
+                            <frase>
+                                <negrita>Descripción /Ejemplo</negrita>
+                            </frase>
+                        </columna>
+                    </fila>
+                    <fila>
+                        <columna>
+                            <frase>Matemática</frase>
+                        </columna>
+                        <columna>
+                            <frase>MathML y OpenMath</frase>
+                        </columna>
+                        <columna>
+                            <web enlace="https://es.wikipedia.org/wiki/MathML">Su objetivo es expresar notación matemática.</web>
+                        </columna>
+                    </fila>
+                    <fila>
+                        <columna>
+                            <frase>Geomática</frase>
+                        </columna>
+                        <columna>
+                            <frase>Geography ML</frase>
+                        </columna>
+                        <columna>
+                            <web enlace="https://es.wikipedia.org/wiki/Geography_Markup_Language">Su objetivo es el modelaje, transporte y almacenamiento de información geográfica.</web>
+                        </columna>
+                    </fila>
+                    <fila>
+                        <columna>
+                            <frase>Aeronáutica</frase>
+                        </columna>
+                        <columna>
+                            <frase>Spacecraft ML</frase>
+                        </columna>
+                        <columna />
+                    </fila>
+                    <fila>
+                        <columna>
+                            <frase>Multimedia</frase>
+                        </columna>
+                        <columna>
+                            <frase>Synchronized Multimedia Integration Language</frase>
+                        </columna>
+                        <columna>
+                            <web enlace="https://es.wikipedia.org/wiki/SMIL">El lenguaje SMIL permite integrar audio, video, imágenes, texto o cualquier otro contenido multimedia.</web>
+                        </columna>
+                    </fila>
+                    <fila>
+                        <columna>
+                            <frase>Voz</frase>
+                        </columna>
+                        <columna>
+                            <frase>VoiceXML</frase>
+                        </columna>
+                        <columna />
+                    </fila>
+                    <fila>
+                        <columna>
+                            <frase>Mensajería instantánea</frase>
+                        </columna>
+                        <columna>
+                            <frase>XMPP</frase>
+                        </columna>
+                        <columna>
+                            <web enlace="https://es.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol">Con el protocolo XMPP queda establecida una plataforma para el intercambio de datos XML que puede ser usada en aplicaciones de mensajería instantánea.</web>
+                        </columna>
+                    </fila>
+                    <fila>
+                        <columna>
+                            <frase>Gráficos 3D</frase>
+                        </columna>
+                        <columna>
+                            <frase>VRML/X3D, STEP</frase>
+                        </columna>
+                        <columna>
+                            <web enlace="https://es.wikipedia.org/wiki/VRML">Formato de archivo normalizado que tiene como objetivo la representación de escenas u objetos interactivos tridimensionales.</web>
+                        </columna>
+                    </fila>
+                </tabla>
+            </texto>
+        </subtema>
+    </tema>
+    <tema titulo="eXtensible Markup language (XML)">
+    	<texto>
+    		<imagen enlace="./imagenes/xml.png">Diagrama sobre XML</imagen>
+    	</texto>
+        <subtema titulo="Definición de XML">
+            <texto>
+            	<parrafo>XML proviene de eXtensible Markup Language (“Lenguaje de Marcas Extensible”). Se trata de un metalenguaje (un lenguaje que se utiliza para decir algo acerca de otro) extensible de etiquetas que fue desarrollado por el Word Wide Web Consortium (W3C).</parrafo>
+            	<parrafo>El XML es una adaptación del SGML (Standard Generalized Markup Language), un lenguaje que permite la organización y el etiquetado de documentos. Esto quiere decir que el XML no es un lenguaje en sí mismo, sino un sistema que permite definir lenguajes de acuerdo a las necesidades. El XHTML, el MathML y el SVG son algunos de los lenguajes que el XML tiene la capacidad de definir.</parrafo>
+            	<parrafo>Las bases de datos, los documentos de texto, las hojas de cálculo y las páginas web son algunos de los campos de aplicación del XML. El metalenguaje aparece como un estándar que estructura el intercambio de información entre las diferentes plataformas.</parrafo>
+            	<frase><negrita>XML no es:</negrita></frase>
+            	<lista>
+            		<elemento><frase>No es una una “<cursiva>versión mejorada de HTML</cursiva>”</frase></elemento>
+            		<elemento><frase>No es un lenguaje para hacer mejores páginas web.</frase></elemento>
+            		<elemento><frase>No es un lenguaje sustituto de HTML.</frase></elemento>
+            		<elemento><frase>No es difícil.</frase></elemento>
+            	</lista>
+            </texto>
+        </subtema>
+        <subtema titulo="Utilidades de XML">
+            <texto>
+            	<parrafo>Dado que, en gran parte, la utilidad de una herramienta depende de la creatividad de quien la utiliza, resulta imposible resumir todas las aplicaciones de XML. En pocas palabras, se puede decir que ofrece la posibilidad de estructurar y representar datos. En la actualidad, es común que los programas incluyan archivos de configuración en este formato; tal es el caso de Apache y de las aplicaciones creadas con la tecnología .NET (de Microsoft).</parrafo>
+            	<parrafo>Cuando se desarrolla un programa con interfaz gráfica es necesario organizar todas las imágenes de manera que se vayan cargando a medida que se necesiten, y XML es de gran ayuda en estos casos: permite agruparlas, etiquetarlas, especificar su ubicación y relacionarlas con otros datos, según las necesidades de los diseñadores.</parrafo>
+            	<parrafo>Pero además de facilitar la organización de los recursos y la configuración de un programa, XML cumple un papel muy importante que es, sin lugar a dudas, su punto fuerte: le permite comunicarse con otras aplicaciones, de diferentes plataformas y sin que importe el origen de la información en común. Se pueden tener, por ejemplo, un programa corriendo en Windows con una base de datos de SQL Server, y otro en Linux con Oracle, ambos compartiendo datos gracias a una estructura en XML.</parrafo>
+            	<parrafo>Los servicios web, concepto muy común en esta era, son componentes de la Red que brindan la posibilidad de realizar una serie variada de operaciones, a través de métodos concretos que aprovechan el metalenguaje XML para sus comunicaciones, gracias a lo cual cualquier plataforma puede hacer uso de sus ventajas.</parrafo>
+            	<frase>En resumen:</frase>
+            	<lista>
+            		<elemento><frase>XML aplicado a los <negrita>sitios web</negrita>: permite separar contenido y presentación, y que los mismos datos se puedan mostrar de varias formas distintas sin demasiado esfuerzo.</frase></elemento>
+            		<elemento><frase>XML para la <negrita>comunicación</negrita> entre aplicaciones: 1, estándar. En los últimos tiempos este uso se está haciendo muy popular con el surgimiento de los Servicios web.</frase></elemento>
+            		<elemento><frase>XML para la <negrita>configuración</negrita> de programas: representación de los datos simple y estándar, en contraposición con los crípticos formatos propietarios.</frase></elemento>
+            	</lista>
+            </texto>
+        </subtema>
+    </tema>
+    <tema titulo="Estructura de documentos XML">
+    	<texto>
+    		<parrafo>La estructura básica de XML se compone de un prólogo y un elemento raíz. El prólogo se refiere al resto del documento y contiene información sobre el mismo, tal como su versión, el código de caracteres usados y una descripción de la estructura del documento, para la que se suele usar DTD (Document Type Definition) o Schema XML.</parrafo>
+    		<parrafo>Dentro de elemento raíz, que es el principal, se encuentran el resto de los elementos que conforman el cuerpo del documento. Tiene una estructura jerarquizada, a modo que el primer elemento (raíz) se podría denominar como el “padre” del resto de elementos, los cuales derivan de él en forma ramificada y ordenada por jerarquía. Todos los elementos a su vez pueden tener sus propias derivaciones o elementos hijos.</parrafo>
+    		<imagen enlace="./imagenes/codigo/estructura_xml.png">Ejemplo de estructura de XML</imagen>
+    		
+    		<frase><negrita>Normas de diseño de un Documento XML</negrita></frase>
+    		
+    		<frase>Que marcas hay que incluir sus nombres la jerarquía, que debe de poseer, qué información ha de contener.</frase>
+    		<lista>
+    			<elemento><frase>¿Que se ha de marcar?</frase></elemento>
+    			<elemento><frase>Organización y Estructura.</frase></elemento>
+    			<elemento><frase>Elementos o atributos.</frase></elemento>
+    		</lista>
+    		
+    		<frase>consideraciones.</frase>
+    		<lista>
+    			<elemento><frase>Necesidades futuras.</frase></elemento>
+    			<elemento><frase>Revisión de nuestros requisitos.</frase></elemento>
+    			<elemento><frase>Nombres descriptivos.</frase></elemento>
+    		</lista>
+    		
+    	</texto>
+        <subtema titulo="¿Qué es DTD?">
+            <texto>
+            </texto>
+        </subtema>
+        <subtema titulo="Ejemplos de gramáticas DTD">
+            <texto>
+            </texto>
+        </subtema>
+        <subtema titulo="Principales elementos de una gramática DTD">
+            <texto>
+            </texto>
+        </subtema>
+    </tema>
+    <tema titulo="Validación documentos XML">
+        <subtema titulo="Herramientas de validación de documentos XML">
+            <texto>
+            </texto>
+        </subtema>
+    </tema>
+    <tema titulo="Transformación de estructuras XML">
+        <subtema titulo="¿Qué es el lenguaje de transformación XSLT?">
+            <texto>
+            </texto>
+        </subtema>
+        <subtema titulo="Ejemplos de transformaciones XSLT">
+            <texto>
+            </texto>
+        </subtema>
+        <subtema titulo="Principales instrucciones XSLT">
+            <texto>
+            </texto>
+        </subtema>
+        <subtema titulo="Herramientas de transformación con XSLT">
+            <texto>
+            </texto>
+        </subtema>
+    </tema>
+    <tema titulo="Ejemplos de lenguajes basados en XML">
+        <subtema titulo="xHTML">
+            <texto />
+            <subsubtema titulo="¿Que es xHTML?">
+                <texto>
+            	</texto>
+            </subsubtema>
+            <subsubtema titulo="Utilidades">
+                <texto>
+            	</texto>
+            </subsubtema>
+            <subsubtema titulo="Declaración">
+                <texto>
+            	</texto>
+            </subsubtema>
+        </subtema>
+        <subtema titulo="RSS / Atom">
+            <texto />
+            <subsubtema titulo="¿Qué es RSS o Atom?">
+                <texto>
+            	</texto>
+            </subsubtema>
+            <subsubtema titulo="Utilidades">
+                <texto>
+            	</texto>
+            </subsubtema>
+        </subtema>
+        <subtema titulo="Otros lenguajes basados en XML">
+            <texto>
+            </texto>
+        </subtema>
+    </tema>
 </contenido>
