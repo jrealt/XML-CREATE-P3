@@ -23,12 +23,20 @@
 <!ATTLIST texto
   xmlns CDATA #FIXED ''>
 
-<!ELEMENT frase (#PCDATA)>
+<!ELEMENT frase (#PCDATA|negrita|cursiva)*>
 <!ATTLIST frase
   xmlns CDATA #FIXED ''>
 
-<!ELEMENT parrafo (#PCDATA)>
+<!ELEMENT parrafo (#PCDATA|negrita|cursiva)*>
 <!ATTLIST parrafo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT negrita (#PCDATA)>
+<!ATTLIST negrita
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT cursiva (#PCDATA)>
+<!ATTLIST cursiva
   xmlns CDATA #FIXED ''>
 
 <!ELEMENT imagen (#PCDATA)>
