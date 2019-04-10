@@ -1,0 +1,101 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE contenido SYSTEM "dtd_transformacion.dtd">
+
+<contenido>
+	<tema titulo="Espacios web para aprender y practicar los lenguajes de marca">
+		<texto>
+		</texto>
+	</tema>
+	<tema titulo="Lenguajes de marcas">
+		<subtema titulo="¿Qué son los lenguajes de marcas?">
+			<texto>
+			</texto>
+		</subtema>
+		<subtema titulo="Ejemplos de lenguajes de marcas">
+			<texto>
+			</texto>
+		</subtema>
+	</tema>
+	<tema titulo="eXtensible Markup language (XML)">
+		<subtema titulo="Definición de XML">
+			<texto>
+			</texto>
+		</subtema>
+		<subtema titulo="Utilidades de XML">
+			<texto>
+			</texto>
+		</subtema>
+	</tema>
+	<tema titulo="Estructura de documentos XML">
+		<subtema titulo="¿Qué es DTD?">
+			<texto>
+			</texto>
+		</subtema>
+		<subtema titulo="Ejemplos de gramáticas DTD">
+			<texto>
+			</texto>
+		</subtema>
+		<subtema titulo="Principales elementos de una gramática DTD">
+			<texto>
+			</texto>
+		</subtema>
+	</tema>
+	<tema titulo="Validación documentos XML">
+		<subtema titulo="Herramientas de validación de documentos XML">
+			<texto>
+			</texto>
+		</subtema>
+	</tema>
+	<tema titulo="Transformación de estructuras XML">
+		<subtema titulo="¿Qué es el lenguaje de transformación XSLT?">
+			<texto>
+			</texto>
+		</subtema>
+		<subtema titulo="Ejemplos de transformaciones XSLT">
+			<texto>
+			</texto>
+		</subtema>
+		<subtema titulo="Principales instrucciones XSLT">
+			<texto>
+			</texto>
+		</subtema>
+		<subtema titulo="Herramientas de transformación con XSLT">
+			<texto>
+			</texto>
+		</subtema>
+	</tema>
+	<tema titulo="Ejemplos de lenguajes basados en XML">
+		<subtema titulo="xHTML">
+			<texto>
+			</texto>
+			<subsubtema titulo="¿Que es xHTML?">
+				<texto>
+				</texto>
+			</subsubtema>
+			<subsubtema titulo="Utilidades">
+				<texto>
+				</texto>
+			</subsubtema>
+			<subsubtema titulo="Declaración">
+				<texto>
+				</texto>
+			</subsubtema>
+		</subtema>
+		<subtema titulo="RSS / Atom">
+			<texto>
+			</texto>
+			<subsubtema titulo="¿Qué es RSS o Atom?">
+				<texto>
+				</texto>
+			</subsubtema>
+			<subsubtema titulo="Utilidades">
+				<texto>
+				</texto>
+			</subsubtema>
+		</subtema>
+		<subtema titulo="Otros lenguajes basados en XML">
+			<texto>
+			</texto>
+		</subtema>
+	</tema>
+</contenido>
