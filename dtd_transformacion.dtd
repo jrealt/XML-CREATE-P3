@@ -19,6 +19,38 @@
   xmlns CDATA #FIXED ''
   titulo CDATA #REQUIRED>
 
-<!ELEMENT texto (#PCDATA)>
+<!ELEMENT texto (parrafo?,imagen?,enlace?,lista?,tabla?)*>
 <!ATTLIST texto
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT parrafo (#PCDATA)>
+<!ATTLIST parrafo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT imagen (#PCDATA)>
+<!ATTLIST imagen
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT enlace (#PCDATA)>
+<!ATTLIST enlace
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT lista (elemento)+>
+<!ATTLIST lista
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT elemento (parrafo?, imagen?, enlace?)+>
+<!ATTLIST elemento
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT tabla (fila)+>
+<!ATTLIST tabla
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fila (columna)+>
+<!ATTLIST fila
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT columna (parrafo?, imagen?, enlace?)+>
+<!ATTLIST columna
   xmlns CDATA #FIXED ''>
