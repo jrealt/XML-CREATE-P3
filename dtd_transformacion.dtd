@@ -7,27 +7,30 @@
 <!ELEMENT tema (subtema?, texto?)+>
 <!ATTLIST tema
   xmlns CDATA #FIXED ''
-  titulo CDATA #REQUIRED>
+  titulo CDATA #REQUIRED
+  ancla CDATA #REQUIRED>
 
 <!ELEMENT subtema (subsubtema?, texto?)+>
 <!ATTLIST subtema
   xmlns CDATA #FIXED ''
-  titulo CDATA #REQUIRED>
+  titulo CDATA #REQUIRED
+  ancla CDATA #REQUIRED>
 
 <!ELEMENT subsubtema (texto)>
 <!ATTLIST subsubtema
   xmlns CDATA #FIXED ''
-  titulo CDATA #REQUIRED>
+  titulo CDATA #REQUIRED
+  ancla CDATA #REQUIRED>
 
 <!ELEMENT texto (parrafo?,frase?,imagen?,web?,lista?,tabla?)*>
 <!ATTLIST texto
   xmlns CDATA #FIXED ''>
 
-<!ELEMENT frase (#PCDATA|negrita|cursiva)*>
+<!ELEMENT frase (#PCDATA|web|negrita|cursiva)*>
 <!ATTLIST frase
   xmlns CDATA #FIXED ''>
 
-<!ELEMENT parrafo (#PCDATA|negrita|cursiva)*>
+<!ELEMENT parrafo (#PCDATA|web|negrita|cursiva)*>
 <!ATTLIST parrafo
   xmlns CDATA #FIXED ''>
 
@@ -61,8 +64,12 @@
 <!ATTLIST tabla
   xmlns CDATA #FIXED ''>
 
-<!ELEMENT fila (columna)+>
+<!ELEMENT fila (cabecera?, columna?)+>
 <!ATTLIST fila
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT cabecera (parrafo?,frase?,imagen?,web?)+>
+<!ATTLIST cabecera
   xmlns CDATA #FIXED ''>
 
 <!ELEMENT columna (parrafo?,frase?,imagen?,web?)+>
