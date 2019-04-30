@@ -3,13 +3,13 @@
 <contenido>
     <tema titulo="Espacios web para aprender y practicar los lenguajes de marca" ancla="espacios_para_aprender">
         <texto>
-        	<lista>
+        	<lista_desordenada>
 	            <elemento><web enlace="http://www.mclibre.org/consultar/xml/ejercicios/documentos-bien-formados.html">(7 Ejercicios sobre documentos XML mal formados y corrección).</web></elemento>
 	            <elemento><web enlace="http://agllmiesjulianmarias.blogspot.com/">(Gran cantidad de ejercicios sobre XML y lenguajes de marcas, incluido en las búsquedas grupales).</web></elemento>
 	            <elemento><web enlace="https://www.abrirllave.com/xml/ejercicios-resueltos.php">(Ejercicios desde nivel básico sobre XML, sacado de las búsquedas grupales).</web></elemento>
 	            <elemento><web enlace="https://sites.google.com/site/todoxmldtd/ejercicios">(Ejercicios XML y lenguajes de marca desde nivel básico, sacado de las búsqueda grupales).</web></elemento>
 	            <elemento><web enlace="https://www.w3schools.com/xml/xml_quiz.asp">(Examen de 25 preguntas sobre conocimiento general de XML).</web></elemento>
-	        </lista>
+	        </lista_desordenada>
         </texto>
     </tema>
     <tema titulo="Lenguajes de marcas" ancla="lenguajes_de_marca">
@@ -22,7 +22,7 @@
                 <parrafo>El lenguaje de marcas más extendido es el HTML (HyperText Markup Language, lenguaje de marcado de hipertexto), fundamento del World Wide Web.</parrafo>
                 <parrafo>Los lenguajes de marcado suelen confundirse con lenguajes de programación. Sin embargo, no son lo mismo, ya que el lenguaje de marcado no tiene funciones aritméticas o variables, como poseen los lenguajes de programación. Históricamente, el marcado se usaba y se usa en la industria editorial y de la comunicación, así como entre autores, editores impresores.</parrafo>
                 <frase>Las principales características de los lenguajes de marcas son:</frase>
-                <lista>
+                <lista_ordenada>
                     <elemento>
                         <frase><negrita>Uso del texto plano</negrita>, para que cualquier usuario pueda leer y editar.</frase>
                     </elemento>
@@ -38,9 +38,9 @@
                     <elemento>
                         <frase><negrita>Posibilidad de combinación</negrita> con otros lenguajes.</frase>
                     </elemento>
-                </lista>
+                </lista_ordenada>
                 <frase>Los Lenguajes de Marcas se pueden clasificar de la siguiente manera:</frase>
-                <lista>
+                <lista_ordenada>
                     <elemento>
                         <frase><negrita>Lenguajes de presentación</negrita>: Define el formato (apariencia) del texto. Éstos suelen ocultar las etiquetas y mostrar al usuario solamente el texto con su formato.</frase>
                     </elemento>
@@ -50,7 +50,7 @@
                     <elemento>
                         <frase><negrita>Lenguajes descriptivos o semánticos</negrita>: Describen las diferentes partes en las que se estructura el documento, es decir, definen su contenido, pero sin especificar cómo deben representarse.</frase>
                     </elemento>
-                </lista>
+                </lista_ordenada>
             </texto>
         </subtema>
         <subtema titulo="Ejemplos de lenguajes de marcas" ancla="ejemplos_lenguaje_de_marca">
@@ -219,12 +219,12 @@
             	<parrafo>El XML es una adaptación del SGML (Standard Generalized Markup Language), un lenguaje que permite la organización y el etiquetado de documentos. Esto quiere decir que el XML no es un lenguaje en sí mismo, sino un sistema que permite definir lenguajes de acuerdo a las necesidades. El XHTML, el MathML y el SVG son algunos de los lenguajes que el XML tiene la capacidad de definir.</parrafo>
             	<parrafo>Las bases de datos, los documentos de texto, las hojas de cálculo y las páginas web son algunos de los campos de aplicación del XML. El metalenguaje aparece como un estándar que estructura el intercambio de información entre las diferentes plataformas.</parrafo>
             	<frase><negrita>XML no es:</negrita></frase>
-            	<lista>
+            	<lista_desordenada>
             		<elemento><frase>No es una una “<cursiva>versión mejorada de HTML</cursiva>”</frase></elemento>
             		<elemento><frase>No es un lenguaje para hacer mejores páginas web.</frase></elemento>
             		<elemento><frase>No es un lenguaje sustituto de HTML.</frase></elemento>
             		<elemento><frase>No es difícil.</frase></elemento>
-            	</lista>
+            	</lista_desordenada>
             </texto>
         </subtema>
         <subtema titulo="Utilidades de XML" ancla="utilidades_xml">
@@ -234,11 +234,11 @@
             	<parrafo>Pero además de facilitar la organización de los recursos y la configuración de un programa, XML cumple un papel muy importante que es, sin lugar a dudas, su punto fuerte: le permite comunicarse con otras aplicaciones, de diferentes plataformas y sin que importe el origen de la información en común. Se pueden tener, por ejemplo, un programa corriendo en Windows con una base de datos de SQL Server, y otro en Linux con Oracle, ambos compartiendo datos gracias a una estructura en XML.</parrafo>
             	<parrafo>Los servicios web, concepto muy común en esta era, son componentes de la Red que brindan la posibilidad de realizar una serie variada de operaciones, a través de métodos concretos que aprovechan el metalenguaje XML para sus comunicaciones, gracias a lo cual cualquier plataforma puede hacer uso de sus ventajas.</parrafo>
             	<frase>En resumen:</frase>
-            	<lista>
+            	<lista_desordenada>
             		<elemento><frase>XML aplicado a los <negrita>sitios web</negrita>: permite separar contenido y presentación, y que los mismos datos se puedan mostrar de varias formas distintas sin demasiado esfuerzo.</frase></elemento>
             		<elemento><frase>XML para la <negrita>comunicación</negrita> entre aplicaciones: 1, estándar. En los últimos tiempos este uso se está haciendo muy popular con el surgimiento de los Servicios web.</frase></elemento>
             		<elemento><frase>XML para la <negrita>configuración</negrita> de programas: representación de los datos simple y estándar, en contraposición con los crípticos formatos propietarios.</frase></elemento>
-            	</lista>
+            	</lista_desordenada>
             </texto>
         </subtema>
     </tema>
@@ -251,43 +251,43 @@
     		<frase><negrita>Normas de diseño de un Documento XML</negrita></frase>
     		
     		<frase>Que marcas hay que incluir sus nombres la jerarquía, que debe de poseer, qué información ha de contener.</frase>
-    		<lista>
+    		<lista_desordenada>
     			<elemento><frase>¿Que se ha de marcar?</frase></elemento>
     			<elemento><frase>Organización y Estructura.</frase></elemento>
     			<elemento><frase>Elementos o atributos.</frase></elemento>
-    		</lista>
+    		</lista_desordenada>
     		
     		<frase>consideraciones.</frase>
-    		<lista>
+    		<lista_desordenada>
     			<elemento><frase>Necesidades futuras.</frase></elemento>
     			<elemento><frase>Revisión de nuestros requisitos.</frase></elemento>
     			<elemento><frase>Nombres descriptivos.</frase></elemento>
-    		</lista>
+    		</lista_desordenada>
     		
     		<frase><negrita>Tipos de datos XML</negrita></frase>
     		
     		<parrafo>Existen 19 tipos de datos simples predefinidos primitivos, que se pueden agrupar en 4 categorías:</parrafo>
     		<frase>Tipos cadena</frase>
-    		<lista>
+    		<lista_desordenada>
     			<elemento><frase>string: secuencia de longitud finita de caracteres.</frase></elemento>
     			<elemento><frase>anyURI: una uri estándar de Internet</frase></elemento>
     			<elemento><frase>NOTATION: declara enlaces a contenido externo no-XML</frase></elemento>
     			<elemento><frase>Qname: una cadena legal Qname (nombre con cualificador)</frase></elemento>
-    		</lista>
+    		</lista_desordenada>
     		<frase>Tipos binario codificado</frase>
-    		<lista>
+    		<lista_desordenada>
     			<elemento><frase>boolean: toma los valores “true” o “false”.</frase></elemento>
     			<elemento><frase>hexBinary: dato binario codificado como una serie de pares de dígitos hexadecimales</frase></elemento>
     			<elemento><frase>base64Binary: datos binarios codificados en base 64</frase></elemento>
-    		</lista>
+    		</lista_desordenada>
     		<frase>Tipos numéricos</frase>
-    		<lista>
+    		<lista_desordenada>
     			<elemento><frase>decimal: número decimal de precisión (dígitos significativos) arbitraria.</frase></elemento>
     			<elemento><frase>float: número de punto flotante de 32 bits de precisión simple.</frase></elemento>
     			<elemento><frase>double: número de punto flotante de 64 bits de doble precisión.</frase></elemento>
-    		</lista>
+    		</lista_desordenada>
     		<frase>Tipos de fecha/hora</frase>
-    		<lista>
+    		<lista_desordenada>
     			<elemento><frase>duration: duración de tiempo</frase></elemento>
     			<elemento><frase>dateTime: instante de tiempo específico, usando calendario gregoriano, en formato "YYYYMM-DDThh:mm:ss"</frase></elemento>
     			<elemento><frase>date: fecha específica del calendario gregoriano, en formato "YYYY-MM-DD” *</frase></elemento>
@@ -297,7 +297,7 @@
     			<elemento><frase>gMonthDay: día y mes del calendario gregoriano</frase></elemento>
     			<elemento><frase>gMonth: un mes del calendario gregoriano</frase></elemento>
     			<elemento><frase>gDay: una fecha del calendario gregoriano (día)</frase></elemento>
-    		</lista>
+    		</lista_desordenada>
     	</texto>
         <subtema titulo="¿Qué es DTD?" ancla="que_es_dtd">
             <texto>
@@ -319,12 +319,12 @@
             <texto>
             	<frase>Las DTDs describen la estructura de los documentos XML mediante declaraciones.</frase>
             	<frase>Hay cuatro tipos de declaraciones:</frase>
-            	<lista>
+            	<lista_desordenada>
             		<elemento><parrafo><negrita>Declaraciones de entidades</negrita>. Para ello primero hemos de explicar que una entidad consta de un nombre y un valor. El procesador XML sustituye las referencias a entidades por sus valores antes de procesar el documento. Así que una vez definida la identidad (nombre+valor) se puede utilizar en el documento mediante una referencia a la misma. Esta referencia empieza con el carácter "&amp;", siguiendo con el nombre de la entidad y terminando con “;” (&amp;nombreEntidad;) Las entidades pueden ser internas (declaradas dentro de DTD) o externas (declaradas fuera de DTD) a su vez estas pueden ser generales (se deben declarar en el DTD antes de que se puedan usar en el documento XML) o parámetricas (permiten la creación de secciones de texto de recambio reutilizables).</parrafo></elemento>
             		<elemento><parrafo><negrita>Declaraciones de notaciones</negrita>. Hacen referencia a entidades externas que no va a analizar el procesador XML. En este caso no usamos la notación habitual (&amp;nombreEntidad;) sino el nombre de la entidad directamente.</parrafo></elemento>
             		<elemento><parrafo><negrita>Declaraciones de elementos</negrita>. Indican los elementos permitidos en un documento y su contenido (que puede ser simplemente texto u otros elementos).</parrafo></elemento>
             		<elemento><parrafo><negrita>Declaraciones de atributos</negrita>. que indican los atributos permitidos en cada elemento y el tipo o valores permitidos de cada elemento. Hay varias notaciones para los atributos según su tipo, CDATA, NMTOKEN, NMTOKENS, valores, ID, IDREF, IDREFS, ENTITY, ENTITIES y NOTATION.</parrafo></elemento>
-            	</lista>
+            	</lista_desordenada>
             </texto>
         </subtema>
     </tema>
@@ -333,24 +333,24 @@
     		<parrafo>En primer lugar, los documentos XML deben basarse en la sintaxis definida en la especificación XML para ser correctos (documentos bien formados). Esta sintaxis impone cosas como la coincidencia de mayúsculas/minúsculas en los nombres de etiqueta, comillas obligatorias para los valores de atributo, etc. Sin embargo, para tener un control más preciso sobre el contenido de los documentos es necesario un proceso de análisis más exhaustivo.</parrafo>
             <parrafo>La validación es la parte más importante dentro de este análisis, ya que determina si un documento creado se ciñe a las restricciones descritas en el esquema utilizado para su construcción. Controlar el diseño de documentos a través de esquemas aumenta su grado de fiabilidad, consistencia y precisión, facilitando su intercambio entre aplicaciones y usuarios. Cuando creamos documentos XML válidos aumentamos su funcionalidad y utilidad.</parrafo>
             <parrafo>Es importante que un documento no solo cumpla las reglas XML si no que también ha de estar bien formado para trabajar con él. Esto es debido a que ha de mantener una homogeneidad en su estructura para que los servicios que se prestan a través de documentos XML mantengan su coherencia y los resultados de los mismos tengan sentido en su producto final.</parrafo>
-            <lista>
+            <lista_desordenada>
             	<elemento><frase><negrita>Estar bien formado</negrita>: Cumple con la sintaxis XML.</frase></elemento>
             	<elemento><frase><negrita>Ser válido</negrita>: además de estar bien formado, cumple con determinadas reglas establecidas.</frase></elemento>
-            </lista>
+            </lista_desordenada>
             <frase>La validación se encarga de verificar:</frase>
-            <lista>
+            <lista_desordenada>
             	<elemento><frase><negrita>La corrección de los datos</negrita>: aunque validar contra un esquema no garantiza al 100\% que los datos son correctos, nos permite detectar formatos nulos o valores fuera de rango y por tanto incorrectos.</frase></elemento>
             	<elemento><frase><negrita>La integridad de los datos</negrita>: al validar, se comprueba que toda la información obligatoria está presente en el documento.</frase></elemento>
             	<elemento><frase><negrita>El entendimiento compartido de los datos</negrita>: a través de la validación se comprueba que el emisor y receptor perciban el documento de la misma manera, que lo interpreten igual.</frase></elemento>
-            </lista>
+            </lista_desordenada>
             <frase>El éxito de la validación dependerá de factores como:</frase>
-            <lista>
+            <lista_desordenada>
             	<elemento><frase><negrita>Dónde se originan los documentos</negrita>: si son fuentes confiables o no.</frase></elemento>
             	<elemento><frase><negrita>Quién los crea</negrita>: si son creados por una aplicación automáticamente o por un usuario de forma manual.</frase></elemento>
             	<elemento><frase><negrita>Quién los manipula</negrita>: también es posible introducir errores involuntariamente durante la manipulación de los datos y documentos.</frase></elemento>
             	<elemento><frase><negrita>La calidad de los datos</negrita>: si los documentos se generan directamente de una base de datos de herencia, pueden no estar completos o correctos al 100\%.</frase></elemento>
             	<elemento><frase><negrita>El rendimiento del procesador o aparato que realice la validación</negrita>: el procesado no es inmediato, necesita su tiempo. Si el rendimiento es crítico, se pueden aplicar diversas alternativas para reducir el coste computacional como limitar la validación a algunos aspectos, o crear un código específico para la aplicación particular que lo utiliza y se ejecute de forma más eficaz.</frase></elemento>
-            </lista>
+            </lista_desordenada>
     	</texto>
         <subtema titulo="Herramientas de validación de documentos XML" ancla="herramientas_validacion_xml">
             <texto>
@@ -385,11 +385,11 @@
     		<parrafo>Un documento XML ha de disponer de ciertas “reglas complementarias” para que pueda generar un resultado, como por ejemplo, en una aplicación. Estas “reglas” que en realidad son un código de un programa, van a transformar el documento original XML para que esta aplicación lo pueda procesar y presentar el resultado requerido. Este paquete de “reglas complementarias”, viene dado en un documento XSLT y se ejecuta ( documentos XML+XSTL) en un <negrita>procesador XLST</negrita>, tras lo cual ya obtendremos el resultado final deseado.</parrafo>
     		<parrafo>Es interesante advertir que a un mismo documento XML, se le pueden aplicar diferentes <negrita>hojas de estilo XSTL</negrita>, obteniendo así desde ese documento inicial diferentes resultados según la transformación que ejecutemos con estas hojas de estilo.</parrafo>
     		<frase>Una transformación puede tener lugar en una de tres ubicaciones:</frase>
-    		<lista>
+    		<lista_desordenada>
     			<elemento><frase>En el servidor</frase></elemento>
     			<elemento><frase>En el cliente (por ejemplo, su navegador web)</frase></elemento>
     			<elemento><frase>Con un programa independiente.</frase></elemento>
-    		</lista>
+    		</lista_desordenada>
     	</texto>
         <subtema titulo="¿Qué es el lenguaje de transformación XSLT?" ancla="que_es_xslt">
             <texto>
@@ -397,19 +397,19 @@
             	<parrafo>Las hojas de estilo XSLT - aunque el término de hojas de estilo no se aplica sobre la función directa del XSLT - realizan la transformación del documento utilizando una o varias reglas de plantilla. Estas reglas de plantilla unidas al documento fuente a transformar alimentan un procesador de XSLT, el que realiza las transformaciones deseadas poniendo el resultado en un archivo de salida, o, como en el caso de una página web, las hace directamente en un dispositivo de presentación tal como el monitor del usuario.</parrafo>
             	<parrafo>Actualmente, <negrita>XSLT</negrita> es muy usado en la edición web, generando páginas <web enlace="https://es.wikipedia.org/wiki/HTML">HTML</web> o <web enlace="https://es.wikipedia.org/wiki/XHTML">XHTML</web>. La unión de <web enlace="https://es.wikipedia.org/wiki/Extensible_Markup_Language">XML</web> y <negrita>XSLT</negrita> permite <web enlace="https://es.wikipedia.org/wiki/Separaci%C3%B3n_de_intereses">separar contenido y presentación</web>, aumentando así la productividad.</parrafo>
             	<frase>Las principales características que nos ofrece son:</frase>
-	            <lista>
+	            <lista_desordenada>
 	            	<elemento><frase>Seleccionar solo los elementos o atributos que nos interesan.</frase></elemento>
 	            	<elemento><frase>Ordenar elementos.</frase></elemento>
 	            	<elemento><frase>Realizar comparaciones.</frase></elemento>
 	            	<elemento><frase>Establecer condiciones.</frase></elemento>
-	            </lista>
+	            </lista_desordenada>
 	            <parrafo>Así, partiendo de un único documento XML podemos obtener infinidad de documentos resultantes diferentes simplemente cambiando la hoja de estilos. Viene a ser como aplicar una hoja de estilos CSS a una página HTML para manipular la visualización pero en este caso lo que se manipula es la información.</parrafo>
 	            <frase>El proceso de transformación sigue las siguientes pautas:</frase>
-	            <lista>
+	            <lista_desordenada>
 	            	<elemento><frase>El procesador analiza el documento y construye una estructura para el mismo en forma de árbol.</frase></elemento>
 	            	<elemento><frase>El procesador va recorriendo todos los nodos desde el nodo raíz, aplicando a cada nodo una plantilla, sustituyendo el nodo por el resultado.</frase></elemento>
 	            	<elemento><frase>Cuando se ha hecho todo el recorrido de todos los nodos, se da por finalizada la transformación.</frase></elemento>
-	            </lista>
+	            </lista_desordenada>
             </texto>
         </subtema>
         <subtema titulo="Ejemplos de transformaciones XSLT" ancla="ejemplos_transformaciones_xslt">
@@ -462,10 +462,10 @@
         <subtema titulo="Herramientas de transformación con XSLT" ancla="herramientas_transformacion_xslt">
             <texto>
             	<frase>En el mercado existen diversas herramientas de transformación. Hemos elegido para destacar las siguientes porque son gratuitas.</frase>
-            	<lista>
+            	<lista_desordenada>
             		<elemento><frase><web enlace="http://www.xmlcooktop.com/">Cooktop</web> Herramienta gratuita, bajo Windows solo.</frase></elemento>
             		<elemento><frase><web enlace="https://sourceforge.net/projects/xml-copy-editor/">XML Copy Editor</web> Herramienta libre, bajo Windows, Mac OS y GNU/Linux.</frase></elemento>
-            	</lista>
+            	</lista_desordenada>
             </texto>
         </subtema>
     </tema>
@@ -485,23 +485,23 @@
                 <texto>
                 	<parrafo>XHTML se utiliza para marcar contenido como texto, imágenes y enlaces en forma de hipervínculos para crear una cierta estructura que puede ser mostrada por los navegadores. Los documentos pueden ser estructurados con XHTML para hacerlos legibles para un analizador. El analizador interpreta los elementos de marcado especificados en las definiciones del lenguaje XHTML y reproduce el contenido de estos elementos de una manera específica.</parrafo>
                 	<frase></frase>
-                	<lista>
+                	<lista_ordenada>
                 		<elemento><frase>Los documentos creados con el mismo resulta que ofrecen un estupendo rendimiento.</frase></elemento>
                 		<elemento><frase>Se mantiene de manera muy sencilla.</frase></elemento>
                 		<elemento><frase>No menos notable es el hecho de que permite una gran facilidad a la hora de acometer lo que es la edición directa del código en cuestión.</frase></elemento>
                 		<elemento><frase>Es un lenguaje compatible con distintos estándares.</frase></elemento>
                 		<elemento><frase>Hacer uso del XHTML permite emplear herramientas actuales que ofrecen un mejor rendimiento que las de otros lenguajes.</frase></elemento>
-                	</lista>
+                	</lista_ordenada>
             	</texto>
             </subsubtema>
             <subsubtema titulo="Declaración" ancla="declaracion_xhtml">
                 <texto>
                 	<frase></frase>
-                	<lista>
+                	<lista_ordenada>
                 		<elemento><frase>Un prólogo XML indicando la versión.</frase></elemento>
                 		<elemento><frase>Un declaración DOCTYPE.</frase></elemento>
                 		<elemento><frase>Un elemento HTML raíz en el que deberemos referenciar el espacio de nombre "http://www.w3.org/1999/xhtml".</frase></elemento>
-                	</lista>
+                	</lista_ordenada>
                 	<frase>Además, dentro de head la etiqueta title es obligatoria.</frase>
             	</texto>
             </subsubtema>
@@ -523,10 +523,10 @@
         </subtema>
         <subtema titulo="Otros lenguajes basados en XML" ancla="otros_lenguajes_basados_en_xml">
             <texto>
-            	<lista>
+            	<lista_desordenada>
                 	<elemento><parrafo><negrita>Extensible Stylesheet Language (XSL)</negrita>. El Lenguaje de Hoja de Estilo Extensible (eX-tensible Stylesheet Language, XSL) es una familia de lenguajes que permiten describir como los archivos codificados en XML serán formateados (para mostrarlos) o transformados. Hay tres lenguajes en esta familia: XSL Transformations (XSLT), XSL Formatting Objects (XSL- FO) y XML Path Language.</parrafo></elemento>
                 	<elemento><parrafo><negrita>Lenguaje de enlace XML (XLINK)</negrita>. XLink es una aplicación XML que intenta superar las limitaciones que tienen los enlaces de hipertexto en HTML. XLink 1.1 es ya una recomendación W3C.</parrafo></elemento>
-                </lista>
+                </lista_desordenada>
             </texto>
         </subtema>
     </tema>
